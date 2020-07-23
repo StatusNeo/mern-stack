@@ -1,0 +1,26 @@
+{
+  "name": "@statusneo/mern-stack",
+  "version": "1.0.0",
+  "description": "Learning MERN Stack by creating a simple shopping application",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/statusneo/mern-stack.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Nishkarsh Raj",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}

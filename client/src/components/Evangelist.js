@@ -3,7 +3,7 @@ import { Container, ListGroup, ListGroupItem, Button } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import {v1 as uuid} from 'uuid';
 
-class ShoppingList extends Component
+class Evangelist extends Component
 {
 state = { 
 items: [
@@ -60,4 +60,4 @@ items: state.items.filter(item => item.id !== id)
 
 }
 
-export default ShoppingList; 
+export default Evangelist; 

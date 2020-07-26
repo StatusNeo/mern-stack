@@ -1,6 +1,6 @@
 {
   "name": "@statusneo/mern-stack",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Learning MERN Stack by creating a simple shopping application",
   "main": "server.js",
   "repository": {
@@ -26,5 +26,7 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

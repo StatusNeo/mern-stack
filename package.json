@@ -1,6 +1,6 @@
 {
   "name": "@statusneo/mern-stack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Learning MERN Stack by creating a simple shopping application",
   "main": "server.js",
   "repository": {

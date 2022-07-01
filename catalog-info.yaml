@@ -1,0 +1,23 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mern-stack
+  description: |
+    MERN Stack boilerplate repository
+  tags:
+    - mern
+    - node
+    - javascript
+  links:
+    - title: Source Control
+      url: https://github.com/StatusNeo/mern-stack
+      icon: github
+  annotations:
+    github.com/project-slug: StatusNeo/mern-stack
+    sonarqube.org/project-key: StatusNeo_mern-stack
+spec:
+  type: website
+  lifecycle: deprecated
+  owner: sample-group
+  system: sample-system
